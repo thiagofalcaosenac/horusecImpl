@@ -1,7 +1,7 @@
 use Defuse\Crypto\KeyOrPassword;
 
 function createKey() {
-    $password = "example";
+    $password = "exemplo";
     return KeyOrPassword::createFromPassword($password); // Noncompliant
 }
 
